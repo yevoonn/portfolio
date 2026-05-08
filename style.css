@@ -179,7 +179,9 @@ nav::after{
 
 .hero-stats{
   position:absolute;right:3rem;bottom:4rem;
-  display:flex;flex-direction:column;gap:0;
+  display:grid;
+  gap:0;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
   border:1px solid var(--border-c);
   opacity:0;animation:fade-up 0.7s ease 1s forwards;
 }
