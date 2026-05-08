@@ -72,6 +72,10 @@ nav::after{
   font-family:var(--display);font-size:13px;font-weight:700;
   color:var(--cyan);text-decoration:none;letter-spacing:0.15em;
   text-shadow:var(--glow-c);
+  display:flex;
+}
+.nav-logo img{
+  height: 1.6em;
 }
 .nav-logo span{color:var(--magenta);text-shadow:var(--glow-m);}
 .nav-links{display:flex;gap:2.5rem;list-style:none;}
