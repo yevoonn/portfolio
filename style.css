@@ -90,8 +90,8 @@ nav::after{
 }
 .nav-links a::before{
   content:attr(data-num);
-  position:absolute;left:-18px;top:0;
-  font-size:11px;color:var(--magenta);opacity:0.6;
+  position:absolute;left:-18px;top:50%;transform: translateY(-50%);
+  font-size:13px;color:var(--magenta);opacity:0.6;
 }
 .nav-links a:hover{color:var(--cyan);text-shadow:var(--glow-c);}
 @media only screen and (max-width: 450px) {
